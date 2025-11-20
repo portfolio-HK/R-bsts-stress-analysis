@@ -23,21 +23,21 @@ ggplot2 (Visualization)
 dplyr, tidyr (Data wrangling)
 
 📂 Repository Structure
-wearable-stress-analysis/
-├── README.md
-├── data/
-│   ├── raw/        # Original CSV from Garmin Connect
-│   └── processed/  # Imputed data
-├── scripts/
-│   ├── 01_preprocessing.R
-│   ├── 02_missing_imputation.R
-│   ├── 03_bsts_analysis.R
-│   └── 04_visualization.R
-├── results/
-│   ├── figures/    # Plots (time series, intervention effect)
-│   └── tables/     # Statistical outputs
-└── docs/
-    └── report.pdf  # Full research report
+wearable-stress-analysis/<br>
+├── README.md<br>
+├── data/<br>
+│   ├── raw/        # Original CSV from Garmin Connect<br>
+│   └── processed/  # Imputed data<br>
+├── scripts/<br>
+│   ├── 01_preprocessing.R<br>
+│   ├── 02_missing_imputation.R<br>
+│   ├── 03_bsts_analysis.R<br>
+│   └── 04_visualization.R<br>
+├── results/<br>
+│   ├── figures/    # Plots (time series, intervention effect)<br>
+│   └── tables/     # Statistical outputs<br>
+└── docs/<br>
+    └── report.pdf  # Full research report<br>
 
 🔍 Analysis Workflow
 Data PreprocessingLoad raw stress data
